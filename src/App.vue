@@ -5,8 +5,8 @@
 </template>
 
 <script setup lang="ts">
-const a = 1;
-let b =2;
+const a = 1
+let b = 2
 </script>
 
 <style scoped lang="scss">
