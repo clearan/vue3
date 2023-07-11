@@ -1,12 +1,11 @@
 <template>
   <div>
-    <h1>我是App</h1>
+    <el-button type="primary" :icon="Plus">我是App</el-button>
   </div>
 </template>
 
 <script setup lang="ts">
-const a = 1
-let b = 2
+import {Plus} from "@element-plus/icons-vue";
 </script>
 
 <style scoped lang="scss">
