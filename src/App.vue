@@ -1,19 +1,16 @@
 <template>
-  <div>
-    <el-button type="primary" :icon="Plus">我是App</el-button>
-    <Svg name="phone" color="yellow" width="50px"></Svg>
-    <Page></Page>
-  </div>
+  <div>我是测试代码</div>
 </template>
 
 <script setup lang="ts">
-import { Plus } from '@element-plus/icons-vue'
-// import Svg from '@/components/SvgIcon/index.vue'
-// import Page from '@/components/Pagination/index.vue'
+import { onMounted } from 'vue'
+import { reqLogin } from './api/user'
+onMounted(() => {
+  reqLogin({
+    username: 'admin',
+    password: '111111',
+  })
+})
 </script>
 
-<style scoped lang="scss">
-.wrap {
-  width: 200px;
-}
-</style>
+<style scoped lang="scss"></style>
