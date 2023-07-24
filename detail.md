@@ -1,6 +1,7 @@
 ### 关于一些配置、插件
 
-- 工作区的setting.json配置保存等相关规则
+- 工作区的 setting.json 配置保存等相关规则
+
 ```js
  "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -9,8 +10,8 @@
   "typescript.format.enable": false,
 ```
 
-- 用户个人配置如果需要保存时格式化，还需要配置一下formatOnSave为true
+- 用户个人配置如果需要保存时格式化，还需要配置一下 formatOnSave 为 true
 
-- 快速生成vue3模板代码的插件是Vue VSCode Snippets，它和Vue 3 Snippets都是代码片段的插件，可以点进去看看都有哪些自定义的快捷方式
+- 快速生成 vue3 模板代码的插件是 Vue VSCode Snippets，它和 Vue 3 Snippets 都是代码片段的插件，可以点进去看看都有哪些自定义的快捷方式
 
-- 如果看见'@/views/home/index'代码有波浪线提示，则可能因为没有安装TypeScript Vue Plugin(Volar)插件，好像可以从.vscode/extensions.json看出来用哪些插件
+- 如果看见'@/views/home/index'代码有波浪线提示，则可能因为没有安装 TypeScript Vue Plugin(Volar)插件，好像可以从.vscode/extensions.json 看出来用哪些插件
