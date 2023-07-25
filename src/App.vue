@@ -1,5 +1,7 @@
 <template>
-  <div>我是测试代码</div>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script setup lang="ts">

@@ -6,6 +6,7 @@ import 'element-plus/dist/index.css'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 import Comp from '@/components/index'
 import '@/styles/index.scss'
+import router from './router'
 // import axios from 'axios'
 
 // axios({
@@ -23,6 +24,6 @@ app.use(ElementPlus, {
 })
 import 'virtual:svg-icons-register'
 app.use(Comp)
-
+app.use(router)
 app.mount('#app')
 console.log(import.meta.env)
