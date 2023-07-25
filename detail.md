@@ -15,8 +15,9 @@
 - 快速生成 vue3 模板代码的插件是 Vue VSCode Snippets，它和 Vue 3 Snippets 都是代码片段的插件，可以点进去看看都有哪些自定义的快捷方式
 
 - 如果看见'@/views/home/index'代码有波浪线提示，则可能因为没有安装 TypeScript Vue Plugin(Volar)插件，好像可以从.vscode/extensions.json 看出来用哪些插件
-- 写css提示类名的插件：className Completion in CSS
-- 写css的url时提示路径名称的插件：Path Autocomplete，并且需要在settings.json中配置
+- 写 css 提示类名的插件：className Completion in CSS
+- 写 css 的 url 时提示路径名称的插件：Path Autocomplete，并且需要在 settings.json 中配置
+
 ```js
 "path-autocomplete.pathMappings": { // 目前知道的是设置css的url可以有路径提示了
     "@": "${folder}/src"
