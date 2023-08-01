@@ -1,15 +1,16 @@
-export interface loginFromType {
+export interface loginFormType {
   username: string
   password: string
 }
 
-interface Token {
-  token: string
+interface dataType {
+  token?: string
+  message?: string
 }
 
 export interface loginResponseDataType {
   code: number
-  data: Token
+  data: dataType
 }
 interface userInfo {
   userId: number

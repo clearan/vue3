@@ -1,6 +1,6 @@
 import request from '@/utils/request'
 import type {
-  loginFromType,
+  loginFormType,
   loginResponseDataType,
   userResponseDataType,
 } from './type'
@@ -11,8 +11,8 @@ enum API {
 }
 
 // 这里泛型的理解：在声明post函数那里，已经定义了它的泛型，如data是D，代表说调用post的时候传的data由调用时决定，
-// 比如现在data传的时一个接口：loginFromType
-export const reqLogin = (data: loginFromType) =>
+// 比如现在data传的时一个接口：loginFormType
+export const reqLogin = (data: loginFormType) =>
   request.post<any, loginResponseDataType>(API.LOGIN_URL, data)
 
 export const reqUserInfo = () =>
